@@ -17,8 +17,8 @@ $(function () {
 
   $('.reviews-wrapper').slick({
     slidesToShow: 2,
-    prevArrow: ' <button class="reviews__btn reviews__btn-prev"><img src="images/arrow-left.svg"alt="arrow"/></button>',
-    nextArrow: ' <button class="reviews__btn reviews__btn-next"><img src="images/arrow-right.svg"alt="arrow"/></button>',
+    prevArrow: ' <button class="reviews__btn reviews__btn-prev"></button>',
+    nextArrow: ' <button class="reviews__btn reviews__btn-next"></button>',
     responsive: [
       {
         breakpoint: 993,
